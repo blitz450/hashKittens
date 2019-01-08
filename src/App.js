@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import SearchBox from './SearchBox';
-import scroll from './Scroll';
+import Scroll from './Scroll';
 import CardList from './CardList';
+import ErrorBoundary from './ErrorBoundary';
+
 import './App.css'
 
 class App extends Component{
@@ -32,11 +34,13 @@ class App extends Component{
 		else{
 			return(
 				<div className= 'tc'>
-					<h1>RoboFriends</h1>
+					<h1 className='tc'>RoboFriends</h1>
 					<SearchBox searchfield={this.state.searchfield} searchchange={this.onSearchChange}/>
-					<scroll>
-					<CardList robos={filteredrobots} />
-					</scroll>
+					<Scroll>
+					<ErrorBoundary>
+						<CardList robos={filteredrobots} />
+					</ErrorBoundary>
+					</Scroll>
 				</div>
 				);
 		}
