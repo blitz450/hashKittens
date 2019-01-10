@@ -13,6 +13,7 @@ class App extends Component{
 			searchfield: ''
 		}
 	}
+	//comment section
 
 	componentDidMount(){
 		fetch('https://jsonplaceholder.typicode.com/users')
@@ -26,13 +27,13 @@ class App extends Component{
 	render(){
 		const {robots , searchfield}=this.state;
 		const filteredrobots=robots.filter(({name, email, id})=>{
-			return name.toLowerCase().includes(searchfield.toLowerCase()); 
+			return name.toLowerCase().includes(searchfield.toLowerCase());
 		}); 
 		return (!robots.length)?
 			 <h1 className='tc'>LOADING ...</h1> :
 			(<div className= 'tc'>
-				<h1 className='tc'>RoboFriends</h1>
-				<SearchBox searchfield={searchfield} searchchange={this.onSearchChange}/>
+				<h1 className='tc'>HashKittens</h1>
+				<SearchBox  searchchange={this.onSearchChange}/>
 				<Scroll>
 				<ErrorBoundary>
 					<CardList robos={filteredrobots} />

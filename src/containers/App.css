@@ -2,3 +2,10 @@ h1{
 	font-family: 'Jokerman', Arial, monospace ;
 	color: #9EED00 ;
  }
+
+ @font-face{
+ 	font-family: 'Jokerman';
+ 	font-style: normal;
+ 	font-weight: normal;
+  src: local('JOKERMAN'), url(JOKERMAN.TTF) format('ttf')
+}
