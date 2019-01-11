@@ -1,6 +1,6 @@
 {
-  "homepage": "http://blitz450.github.io/hashkittens",
-  "name": "robofriends",
+  "homepage": "http://blitz450.github.io/hashKittens/",
+  "name": "hashkittens",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
