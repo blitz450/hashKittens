@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/hashKittens/static/js/runtime~main.a3c5c34d.js"
   },
   {
-    "revision": "230daf8d9e045e55be3b",
-    "url": "/hashKittens/static/js/main.230daf8d.chunk.js"
+    "revision": "4e8285ea36da5fc2e491",
+    "url": "/hashKittens/static/js/main.4e8285ea.chunk.js"
   },
   {
     "revision": "5f08a842f767171a2216",
     "url": "/hashKittens/static/js/1.5f08a842.chunk.js"
   },
   {
-    "revision": "230daf8d9e045e55be3b",
+    "revision": "4e8285ea36da5fc2e491",
     "url": "/hashKittens/static/css/main.6298288f.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/hashKittens/static/css/1.fd02b258.chunk.css"
   },
   {
-    "revision": "662f94afd9e097fcd0a9cc225ebaac5d",
+    "revision": "55fcfb681cfac191269ff8907179d112",
     "url": "/hashKittens/index.html"
   }
 ];
