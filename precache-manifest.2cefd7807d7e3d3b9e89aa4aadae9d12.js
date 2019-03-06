@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/hashKittens/static/css/1.fd02b258.chunk.css"
   },
   {
-    "revision": "55fcfb681cfac191269ff8907179d112",
+    "revision": "de1cd21bc1e5a5614205f83086387849",
     "url": "/hashKittens/index.html"
   }
 ];
