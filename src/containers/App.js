@@ -39,7 +39,7 @@ class App extends Component{
 			 <h1 className='tc'>LOADING ...</h1>
 			:
 			(<div className= 'tc'>
-				<h1 className='tc'>HashKittens</h1>
+				<h1 className='tc'>Hash Kittens</h1>
 				<SearchBox  searchchange={onSearchChange}/>
 				{(error)
 					?
