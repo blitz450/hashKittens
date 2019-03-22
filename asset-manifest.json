@@ -1,7 +1,7 @@
 {
   "main.css": "/hashKittens/static/css/main.6298288f.chunk.css",
-  "main.js": "/hashKittens/static/js/main.4e8285ea.chunk.js",
-  "main.js.map": "/hashKittens/static/js/main.4e8285ea.chunk.js.map",
+  "main.js": "/hashKittens/static/js/main.f74a812a.chunk.js",
+  "main.js.map": "/hashKittens/static/js/main.f74a812a.chunk.js.map",
   "static/css/1.fd02b258.chunk.css": "/hashKittens/static/css/1.fd02b258.chunk.css",
   "static/js/1.5f08a842.chunk.js": "/hashKittens/static/js/1.5f08a842.chunk.js",
   "static/js/1.5f08a842.chunk.js.map": "/hashKittens/static/js/1.5f08a842.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/App.css": "/hashKittens/static/media/JOKERMAN.eec0608f.TTF",
   "static/css/1.fd02b258.chunk.css.map": "/hashKittens/static/css/1.fd02b258.chunk.css.map",
   "index.html": "/hashKittens/index.html",
-  "precache-manifest.2cefd7807d7e3d3b9e89aa4aadae9d12.js": "/hashKittens/precache-manifest.2cefd7807d7e3d3b9e89aa4aadae9d12.js",
+  "precache-manifest.31c57de2d7053699079eacc7218b98bc.js": "/hashKittens/precache-manifest.31c57de2d7053699079eacc7218b98bc.js",
   "service-worker.js": "/hashKittens/service-worker.js"
 }
